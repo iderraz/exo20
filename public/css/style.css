@@ -1,0 +1,92 @@
+/*body et header*/
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 75px;
+    width: 100%;
+    background-color:#243A5E;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+h3,h1{
+    color: white;   
+}
+
+/*Responsive navbar*/
+@media (max-width:640px){
+    header{
+        height: 40px;
+        width: 100%;
+        background-color:#243A5E;
+    }
+
+    h3,h1{
+        color: white;
+        font-size: small; 
+    }
+}
+
+@media(min-width:641px) and (max-width:1007px){
+    header{
+        height: 60px;
+        width: 100%;
+        background-color:#243A5E;
+    }
+
+    h3,h1{
+        color: white;
+        font-size: larger; 
+    }
+}
+
+@media(min-width:1008px){
+    header{
+        height: 80px;
+        width: 100%;
+        background-color:#243A5E;
+    }
+
+    h3,h1{
+        color: white;
+        font-size:x-large; 
+    }
+}
+/*fin Responsive navbar*/
+
+/*Fin header*/
+
+
+/*Début section 1*/
+
+#section1{
+    background-color: crimson;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section1>div>img{
+    height: 220px;
+}
+
+#section1>div>h1,h4
+
+
+
+
+/*Fin section 1*/
