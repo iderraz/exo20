@@ -1,5 +1,4 @@
 /*body et header*/
-
 body{
     height: 100%;
     width: 100%;
@@ -25,7 +24,6 @@ nav>div{
 h3,h1{
     color: white;   
 }
-
 /*Responsive navbar*/
 @media (max-width:640px){
     header{
@@ -39,7 +37,6 @@ h3,h1{
         font-size: small; 
     }
 }
-
 @media(min-width:641px) and (max-width:1007px){
     header{
         height: 60px;
@@ -52,26 +49,20 @@ h3,h1{
         font-size: larger; 
     }
 }
-
 @media(min-width:1008px){
     header{
         height: 80px;
         width: 100%;
         background-color:#243A5E;
     }
-
     h3,h1{
         color: white;
         font-size:x-large; 
     }
 }
 /*fin Responsive navbar*/
-
 /*Fin header*/
-
-
 /*Début section 1*/
-
 #section1{
     background-color: crimson;
     height: 450px;
@@ -83,10 +74,68 @@ h3,h1{
 #section1>div>img{
     height: 220px;
 }
-
-#section1>div>h1,h4
-
-
-
-
+#section1>div{
+    text-align: center;
+}
+#section1>div>h1,h4{
+    color: white;
+}
+#section1>div>h1{
+    font-size: 250%;
+}
 /*Fin section 1*/
+
+
+/*Début section2*/
+
+#section2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#section2>div{
+    height: 250px;
+    width: 200px;
+}
+#section2>div>img{
+    height: 130px;
+    width: 175px;
+}
+#section2>div:nth-of-type(2)>p{
+    color: black;
+    font-size: 150%;
+}
+#section2>div:nth-of-type(2){
+    margin-bottom: 10%;
+}
+
+/*section 3*/
+section:nth-of-type(3){
+    height: 350px;
+    width: 100%;
+    background-color: crimson;
+}
+section:nth-of-type(3)>p,h1{
+    color: black;
+    text-align: center;
+}
+
+
+/*section 4*/
+section:nth-of-type(4){
+    height: 600px;
+    width: 100%;
+}
+
+
+
+
+/*footer*/
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #243A5E;
+}
